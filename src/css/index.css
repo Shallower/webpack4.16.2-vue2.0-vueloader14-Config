@@ -1,0 +1,13 @@
+.img {
+  background-image: url(../assets/logo.png);
+  width: 466px;
+  height: 453px;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+h2 {
+  top: 5px;
+}
+.test {
+  background: #eee;
+}
