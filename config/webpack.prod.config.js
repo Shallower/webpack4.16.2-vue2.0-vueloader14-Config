@@ -15,20 +15,6 @@ const optimizeCss = require('optimize-css-assets-webpack-plugin');
 
 module.exports = merge(webpackBaseConfig, {
   // mode: 'development', //开发环境：development  生产环境：production
-  //入口文件配置项
-  entry: {
-    //里面得main是可以随便写的
-    main: './src/main.js'
-  },
-  //出口文件得配置项
-  output: {
-    //打包的路径
-    path: path.resolve(__dirname, '../dist'),
-    //打包的文件名
-    filename: 'js/[name].[hash].js', //这里的name告诉我们的是进去得是什么名字出来的就是什么名字
-    publicPath: 'http://127.0.0.1:86/', //publicPath：主要作用就是处理静态文件路径的。
-    chunkFilename: 'js/[name].[hash].chunk.js'
-  },
   //插件，用于生产模板和各项功能
   plugins: [
     new cleanWebpackPlugin(['dist/*'], {

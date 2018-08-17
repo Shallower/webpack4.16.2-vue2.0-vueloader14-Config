@@ -20,7 +20,11 @@ module.exports = {
     // 'vender-exten': '@/vendors/vendors.exten.js' //拓展插件
   },
   output: {
-    path: path.resolve(__dirname, '../dist/assets')
+    path: path.resolve(__dirname, '../dist/assets'),
+    //打包的文件名
+    filename: '[name].js', //这里的name告诉我们的是进去得是什么名字出来的就是什么名字
+    publicPath: siteConfig.publicPath,
+    chunkFilename: '[name].chunk.js'
   },
   module: {
     rules: [

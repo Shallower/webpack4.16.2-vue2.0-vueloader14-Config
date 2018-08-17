@@ -8,18 +8,6 @@ const webpackBaseConfig = require('./webpack.base.config.js');
 
 module.exports = merge(webpackBaseConfig, {
   devtool: 'source-map',
-  //入口文件配置项
-  entry: {
-    //里面得main是可以随便写的
-    main: './src/main.js'
-  },
-  //出口文件得配置项
-  output: {
-    //打包的文件名
-    filename: '[name].js', //这里的name告诉我们的是进去得是什么名字出来的就是什么名字
-    publicPath: siteConfig.publicPath,
-    chunkFilename: '[name].chunk.js'
-  },
   //插件，用于生产模板和各项功能
   plugins: [
     //导出html文档

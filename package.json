@@ -7,7 +7,7 @@
     "build": "webpack --mode production --config=config/webpack.prod.config.js",
     "build2": "webpack --mode production --config=config/webpack.prod2.config.js",
     "dev": "webpack-dev-server --mode development  --open --inline --hot  --config=config/webpack.dev.config.js",
-    "dev": "webpack-dev-server --mode development  --open --inline --hot  --config=config/webpack.dev2.config.js"
+    "dev2": "webpack-dev-server --mode development  --open --inline --hot  --config=config/webpack.dev2.config.js"
   },
   "keywords": [],
   "author": "",
