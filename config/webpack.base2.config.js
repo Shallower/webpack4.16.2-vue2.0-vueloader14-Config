@@ -28,7 +28,7 @@ module.exports = {
     // 'vender-exten': '@/vendors/vendors.exten.js' //拓展插件
   },
   output: {
-    path: path.resolve(__dirname, '../dist/assets')
+    path: path.resolve(__dirname, '../dist')
   },
   module: {
     rules: [

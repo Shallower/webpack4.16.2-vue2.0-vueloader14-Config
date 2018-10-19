@@ -1,6 +1,4 @@
-const siteConfig = require('./utils');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
 const path = require('path');
 const glob = require('glob');
 //PurifyCSSPlugin该插件不能够过滤掉vue文件内部未用到的style

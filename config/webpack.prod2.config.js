@@ -1,6 +1,4 @@
-const siteConfig = require('./utils');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
 const path = require('path');
 const glob = require('glob');
 const cleanWebpackPlugin = require('clean-webpack-plugin');
