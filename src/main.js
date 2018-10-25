@@ -6,6 +6,7 @@ import router from './router/index.js';
 // import store from './store';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
+import './plugins';
 Vue.use(VueAxios, axios);
 
 window.Vue = Vue;
